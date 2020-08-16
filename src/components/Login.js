@@ -70,7 +70,7 @@ class Login extends React.Component {
           ) : (
             <input
               type="submit"
-              disabled={this.state.username === ""}
+              disabled={this.state.username === " "}
               value="LOGIN"
             />
           )}
